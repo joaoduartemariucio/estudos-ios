@@ -1,0 +1,11 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ProgressIndicator_Material_io' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ProgressIndicator_Material_io
+  pod 'MaterialComponents/ProgressView'
+
+end

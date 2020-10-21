@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		461CF28637F690528B28B5B3 /* Pods_ZXing_Samples_ZXing_SamplesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053F6101D092AC67F664B5AD /* Pods_ZXing_Samples_ZXing_SamplesUITests.framework */; };
+		59181259ADDD41271B113BDB /* Pods_ZXing_SamplesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4686CC70C90969C2948E6158 /* Pods_ZXing_SamplesTests.framework */; };
+		CC588B4324D2608C00D44FF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC588B4224D2608C00D44FF4 /* AppDelegate.swift */; };
+		CC588B4524D2608C00D44FF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC588B4424D2608C00D44FF4 /* SceneDelegate.swift */; };
+		CC588B4724D2608C00D44FF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC588B4624D2608C00D44FF4 /* ViewController.swift */; };
+		CC588B4A24D2608C00D44FF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC588B4824D2608C00D44FF4 /* Main.storyboard */; };
+		CC588B4C24D2608E00D44FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC588B4B24D2608E00D44FF4 /* Assets.xcassets */; };
+		CC588B4F24D2608E00D44FF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC588B4D24D2608E00D44FF4 /* LaunchScreen.storyboard */; };
+		CC588B5A24D2608E00D44FF4 /* ZXing_SamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC588B5924D2608E00D44FF4 /* ZXing_SamplesTests.swift */; };
+		CC588B6524D2608E00D44FF4 /* ZXing_SamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC588B6424D2608E00D44FF4 /* ZXing_SamplesUITests.swift */; };
+		E47C43178C28462FC780273A /* Pods_ZXing_Samples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1216674D7076F51FB6B4CE /* Pods_ZXing_Samples.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC588B5624D2608E00D44FF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC588B3724D2608C00D44FF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC588B3E24D2608C00D44FF4;
+			remoteInfo = "ZXing Samples";
+		};
+		CC588B6124D2608E00D44FF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC588B3724D2608C00D44FF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC588B3E24D2608C00D44FF4;
+			remoteInfo = "ZXing Samples";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053F6101D092AC67F664B5AD /* Pods_ZXing_Samples_ZXing_SamplesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXing_Samples_ZXing_SamplesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBD93257809CDC697546D58 /* Pods-ZXing Samples-ZXing SamplesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXing Samples-ZXing SamplesUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZXing Samples-ZXing SamplesUITests/Pods-ZXing Samples-ZXing SamplesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		45B42332E3F3A7C14F3A1555 /* Pods-ZXing Samples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXing Samples.release.xcconfig"; path = "Target Support Files/Pods-ZXing Samples/Pods-ZXing Samples.release.xcconfig"; sourceTree = "<group>"; };
+		4686CC70C90969C2948E6158 /* Pods_ZXing_SamplesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXing_SamplesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B43745298EF47C01ED9B6E2 /* Pods-ZXing SamplesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXing SamplesTests.release.xcconfig"; path = "Target Support Files/Pods-ZXing SamplesTests/Pods-ZXing SamplesTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA7C3A3698F36D95151CA84A /* Pods-ZXing Samples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXing Samples.debug.xcconfig"; path = "Target Support Files/Pods-ZXing Samples/Pods-ZXing Samples.debug.xcconfig"; sourceTree = "<group>"; };
+		BC5E77DA4B8769A50C9512C2 /* Pods-ZXing SamplesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXing SamplesTests.debug.xcconfig"; path = "Target Support Files/Pods-ZXing SamplesTests/Pods-ZXing SamplesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC588B3F24D2608C00D44FF4 /* ZXing Samples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZXing Samples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC588B4224D2608C00D44FF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC588B4424D2608C00D44FF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC588B4624D2608C00D44FF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC588B4924D2608C00D44FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC588B4B24D2608E00D44FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC588B4E24D2608E00D44FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC588B5024D2608E00D44FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC588B5524D2608E00D44FF4 /* ZXing SamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZXing SamplesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC588B5924D2608E00D44FF4 /* ZXing_SamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXing_SamplesTests.swift; sourceTree = "<group>"; };
+		CC588B5B24D2608E00D44FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC588B6024D2608E00D44FF4 /* ZXing SamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZXing SamplesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC588B6424D2608E00D44FF4 /* ZXing_SamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXing_SamplesUITests.swift; sourceTree = "<group>"; };
+		CC588B6624D2608E00D44FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1216674D7076F51FB6B4CE /* Pods_ZXing_Samples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXing_Samples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE261D798E8590E7428D4A0E /* Pods-ZXing Samples-ZXing SamplesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXing Samples-ZXing SamplesUITests.release.xcconfig"; path = "Target Support Files/Pods-ZXing Samples-ZXing SamplesUITests/Pods-ZXing Samples-ZXing SamplesUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC588B3C24D2608C00D44FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E47C43178C28462FC780273A /* Pods_ZXing_Samples.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC588B5224D2608E00D44FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59181259ADDD41271B113BDB /* Pods_ZXing_SamplesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC588B5D24D2608E00D44FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461CF28637F690528B28B5B3 /* Pods_ZXing_Samples_ZXing_SamplesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F259EE9942249BDE473FAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF1216674D7076F51FB6B4CE /* Pods_ZXing_Samples.framework */,
+				053F6101D092AC67F664B5AD /* Pods_ZXing_Samples_ZXing_SamplesUITests.framework */,
+				4686CC70C90969C2948E6158 /* Pods_ZXing_SamplesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		862C11CB4036688A2B56007E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA7C3A3698F36D95151CA84A /* Pods-ZXing Samples.debug.xcconfig */,
+				45B42332E3F3A7C14F3A1555 /* Pods-ZXing Samples.release.xcconfig */,
+				0FBD93257809CDC697546D58 /* Pods-ZXing Samples-ZXing SamplesUITests.debug.xcconfig */,
+				DE261D798E8590E7428D4A0E /* Pods-ZXing Samples-ZXing SamplesUITests.release.xcconfig */,
+				BC5E77DA4B8769A50C9512C2 /* Pods-ZXing SamplesTests.debug.xcconfig */,
+				4B43745298EF47C01ED9B6E2 /* Pods-ZXing SamplesTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC588B3624D2608C00D44FF4 = {
+			isa = PBXGroup;
+			children = (
+				CC588B4124D2608C00D44FF4 /* ZXing Samples */,
+				CC588B5824D2608E00D44FF4 /* ZXing SamplesTests */,
+				CC588B6324D2608E00D44FF4 /* ZXing SamplesUITests */,
+				CC588B4024D2608C00D44FF4 /* Products */,
+				862C11CB4036688A2B56007E /* Pods */,
+				09F259EE9942249BDE473FAC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC588B4024D2608C00D44FF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC588B3F24D2608C00D44FF4 /* ZXing Samples.app */,
+				CC588B5524D2608E00D44FF4 /* ZXing SamplesTests.xctest */,
+				CC588B6024D2608E00D44FF4 /* ZXing SamplesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC588B4124D2608C00D44FF4 /* ZXing Samples */ = {
+			isa = PBXGroup;
+			children = (
+				CC588B4224D2608C00D44FF4 /* AppDelegate.swift */,
+				CC588B4424D2608C00D44FF4 /* SceneDelegate.swift */,
+				CC588B4624D2608C00D44FF4 /* ViewController.swift */,
+				CC588B4824D2608C00D44FF4 /* Main.storyboard */,
+				CC588B4B24D2608E00D44FF4 /* Assets.xcassets */,
+				CC588B4D24D2608E00D44FF4 /* LaunchScreen.storyboard */,
+				CC588B5024D2608E00D44FF4 /* Info.plist */,
+			);
+			path = "ZXing Samples";
+			sourceTree = "<group>";
+		};
+		CC588B5824D2608E00D44FF4 /* ZXing SamplesTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC588B5924D2608E00D44FF4 /* ZXing_SamplesTests.swift */,
+				CC588B5B24D2608E00D44FF4 /* Info.plist */,
+			);
+			path = "ZXing SamplesTests";
+			sourceTree = "<group>";
+		};
+		CC588B6324D2608E00D44FF4 /* ZXing SamplesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC588B6424D2608E00D44FF4 /* ZXing_SamplesUITests.swift */,
+				CC588B6624D2608E00D44FF4 /* Info.plist */,
+			);
+			path = "ZXing SamplesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC588B3E24D2608C00D44FF4 /* ZXing Samples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC588B6924D2608E00D44FF4 /* Build configuration list for PBXNativeTarget "ZXing Samples" */;
+			buildPhases = (
+				B6844020DB2C6F163D168660 /* [CP] Check Pods Manifest.lock */,
+				CC588B3B24D2608C00D44FF4 /* Sources */,
+				CC588B3C24D2608C00D44FF4 /* Frameworks */,
+				CC588B3D24D2608C00D44FF4 /* Resources */,
+				036977A47A53B045BDB060A6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZXing Samples";
+			productName = "ZXing Samples";
+			productReference = CC588B3F24D2608C00D44FF4 /* ZXing Samples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC588B5424D2608E00D44FF4 /* ZXing SamplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC588B6C24D2608E00D44FF4 /* Build configuration list for PBXNativeTarget "ZXing SamplesTests" */;
+			buildPhases = (
+				AAA8A602F8DDAC0BF62053F4 /* [CP] Check Pods Manifest.lock */,
+				CC588B5124D2608E00D44FF4 /* Sources */,
+				CC588B5224D2608E00D44FF4 /* Frameworks */,
+				CC588B5324D2608E00D44FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC588B5724D2608E00D44FF4 /* PBXTargetDependency */,
+			);
+			name = "ZXing SamplesTests";
+			productName = "ZXing SamplesTests";
+			productReference = CC588B5524D2608E00D44FF4 /* ZXing SamplesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC588B5F24D2608E00D44FF4 /* ZXing SamplesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC588B6F24D2608E00D44FF4 /* Build configuration list for PBXNativeTarget "ZXing SamplesUITests" */;
+			buildPhases = (
+				3799FBAA9CF898DAD5EA5829 /* [CP] Check Pods Manifest.lock */,
+				CC588B5C24D2608E00D44FF4 /* Sources */,
+				CC588B5D24D2608E00D44FF4 /* Frameworks */,
+				CC588B5E24D2608E00D44FF4 /* Resources */,
+				E82DAA72D8871F46764FC3EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC588B6224D2608E00D44FF4 /* PBXTargetDependency */,
+			);
+			name = "ZXing SamplesUITests";
+			productName = "ZXing SamplesUITests";
+			productReference = CC588B6024D2608E00D44FF4 /* ZXing SamplesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC588B3724D2608C00D44FF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "João Vitor Duarte Mariucio";
+				TargetAttributes = {
+					CC588B3E24D2608C00D44FF4 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					CC588B5424D2608E00D44FF4 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = CC588B3E24D2608C00D44FF4;
+					};
+					CC588B5F24D2608E00D44FF4 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = CC588B3E24D2608C00D44FF4;
+					};
+				};
+			};
+			buildConfigurationList = CC588B3A24D2608C00D44FF4 /* Build configuration list for PBXProject "ZXing Samples" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC588B3624D2608C00D44FF4;
+			productRefGroup = CC588B4024D2608C00D44FF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC588B3E24D2608C00D44FF4 /* ZXing Samples */,
+				CC588B5424D2608E00D44FF4 /* ZXing SamplesTests */,
+				CC588B5F24D2608E00D44FF4 /* ZXing SamplesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC588B3D24D2608C00D44FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC588B4F24D2608E00D44FF4 /* LaunchScreen.storyboard in Resources */,
+				CC588B4C24D2608E00D44FF4 /* Assets.xcassets in Resources */,
+				CC588B4A24D2608C00D44FF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC588B5324D2608E00D44FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC588B5E24D2608E00D44FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		036977A47A53B045BDB060A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZXing Samples/Pods-ZXing Samples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZXing Samples/Pods-ZXing Samples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZXing Samples/Pods-ZXing Samples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3799FBAA9CF898DAD5EA5829 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZXing Samples-ZXing SamplesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAA8A602F8DDAC0BF62053F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZXing SamplesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6844020DB2C6F163D168660 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZXing Samples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E82DAA72D8871F46764FC3EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZXing Samples-ZXing SamplesUITests/Pods-ZXing Samples-ZXing SamplesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZXing Samples-ZXing SamplesUITests/Pods-ZXing Samples-ZXing SamplesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZXing Samples-ZXing SamplesUITests/Pods-ZXing Samples-ZXing SamplesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC588B3B24D2608C00D44FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC588B4724D2608C00D44FF4 /* ViewController.swift in Sources */,
+				CC588B4324D2608C00D44FF4 /* AppDelegate.swift in Sources */,
+				CC588B4524D2608C00D44FF4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC588B5124D2608E00D44FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC588B5A24D2608E00D44FF4 /* ZXing_SamplesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC588B5C24D2608E00D44FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC588B6524D2608E00D44FF4 /* ZXing_SamplesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC588B5724D2608E00D44FF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC588B3E24D2608C00D44FF4 /* ZXing Samples */;
+			targetProxy = CC588B5624D2608E00D44FF4 /* PBXContainerItemProxy */;
+		};
+		CC588B6224D2608E00D44FF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC588B3E24D2608C00D44FF4 /* ZXing Samples */;
+			targetProxy = CC588B6124D2608E00D44FF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC588B4824D2608C00D44FF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC588B4924D2608C00D44FF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC588B4D24D2608E00D44FF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC588B4E24D2608E00D44FF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC588B6724D2608E00D44FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC588B6824D2608E00D44FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC588B6A24D2608E00D44FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7C3A3698F36D95151CA84A /* Pods-ZXing Samples.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G625UPV6D7;
+				INFOPLIST_FILE = "ZXing Samples/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joaoduarte.estudo.ZXing-Samples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC588B6B24D2608E00D44FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B42332E3F3A7C14F3A1555 /* Pods-ZXing Samples.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G625UPV6D7;
+				INFOPLIST_FILE = "ZXing Samples/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joaoduarte.estudo.ZXing-Samples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC588B6D24D2608E00D44FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC5E77DA4B8769A50C9512C2 /* Pods-ZXing SamplesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G625UPV6D7;
+				INFOPLIST_FILE = "ZXing SamplesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joaoduarte.estudo.ZXing-SamplesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXing Samples.app/ZXing Samples";
+			};
+			name = Debug;
+		};
+		CC588B6E24D2608E00D44FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B43745298EF47C01ED9B6E2 /* Pods-ZXing SamplesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G625UPV6D7;
+				INFOPLIST_FILE = "ZXing SamplesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joaoduarte.estudo.ZXing-SamplesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXing Samples.app/ZXing Samples";
+			};
+			name = Release;
+		};
+		CC588B7024D2608E00D44FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FBD93257809CDC697546D58 /* Pods-ZXing Samples-ZXing SamplesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G625UPV6D7;
+				INFOPLIST_FILE = "ZXing SamplesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joaoduarte.estudo.ZXing-SamplesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ZXing Samples";
+			};
+			name = Debug;
+		};
+		CC588B7124D2608E00D44FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE261D798E8590E7428D4A0E /* Pods-ZXing Samples-ZXing SamplesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G625UPV6D7;
+				INFOPLIST_FILE = "ZXing SamplesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joaoduarte.estudo.ZXing-SamplesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ZXing Samples";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC588B3A24D2608C00D44FF4 /* Build configuration list for PBXProject "ZXing Samples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC588B6724D2608E00D44FF4 /* Debug */,
+				CC588B6824D2608E00D44FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC588B6924D2608E00D44FF4 /* Build configuration list for PBXNativeTarget "ZXing Samples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC588B6A24D2608E00D44FF4 /* Debug */,
+				CC588B6B24D2608E00D44FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC588B6C24D2608E00D44FF4 /* Build configuration list for PBXNativeTarget "ZXing SamplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC588B6D24D2608E00D44FF4 /* Debug */,
+				CC588B6E24D2608E00D44FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC588B6F24D2608E00D44FF4 /* Build configuration list for PBXNativeTarget "ZXing SamplesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC588B7024D2608E00D44FF4 /* Debug */,
+				CC588B7124D2608E00D44FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC588B3724D2608C00D44FF4 /* Project object */;
+}

@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCF16F8C24F5CF2D0077F966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF16F8B24F5CF2D0077F966 /* AppDelegate.swift */; };
+		CCF16F9024F5CF2D0077F966 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF16F8F24F5CF2D0077F966 /* ViewController.swift */; };
+		CCF16F9524F5CF300077F966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF16F9424F5CF300077F966 /* Assets.xcassets */; };
+		CCF16F9824F5CF300077F966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF16F9624F5CF300077F966 /* LaunchScreen.storyboard */; };
+		CCF16FA324F5CF300077F966 /* Take_Photo_Cam_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF16FA224F5CF300077F966 /* Take_Photo_Cam_SampleTests.swift */; };
+		CCF16FAE24F5CF300077F966 /* Take_Photo_Cam_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF16FAD24F5CF300077F966 /* Take_Photo_Cam_SampleUITests.swift */; };
+		CCF16FBC24F5D1670077F966 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF16FBB24F5D1670077F966 /* CameraController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCF16F9F24F5CF300077F966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF16F8024F5CF2D0077F966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF16F8724F5CF2D0077F966;
+			remoteInfo = "Take Photo Cam Sample";
+		};
+		CCF16FAA24F5CF300077F966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF16F8024F5CF2D0077F966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF16F8724F5CF2D0077F966;
+			remoteInfo = "Take Photo Cam Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCF16F8824F5CF2D0077F966 /* Take Photo Cam Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Take Photo Cam Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF16F8B24F5CF2D0077F966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCF16F8F24F5CF2D0077F966 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCF16F9424F5CF300077F966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCF16F9724F5CF300077F966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCF16F9924F5CF300077F966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF16F9E24F5CF300077F966 /* Take Photo Cam SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Take Photo Cam SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF16FA224F5CF300077F966 /* Take_Photo_Cam_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take_Photo_Cam_SampleTests.swift; sourceTree = "<group>"; };
+		CCF16FA424F5CF300077F966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF16FA924F5CF300077F966 /* Take Photo Cam SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Take Photo Cam SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF16FAD24F5CF300077F966 /* Take_Photo_Cam_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take_Photo_Cam_SampleUITests.swift; sourceTree = "<group>"; };
+		CCF16FAF24F5CF300077F966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF16FBB24F5D1670077F966 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF16F8524F5CF2D0077F966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF16F9B24F5CF300077F966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF16FA624F5CF300077F966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCF16F7F24F5CF2D0077F966 = {
+			isa = PBXGroup;
+			children = (
+				CCF16F8A24F5CF2D0077F966 /* Take Photo Cam Sample */,
+				CCF16FA124F5CF300077F966 /* Take Photo Cam SampleTests */,
+				CCF16FAC24F5CF300077F966 /* Take Photo Cam SampleUITests */,
+				CCF16F8924F5CF2D0077F966 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF16F8924F5CF2D0077F966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF16F8824F5CF2D0077F966 /* Take Photo Cam Sample.app */,
+				CCF16F9E24F5CF300077F966 /* Take Photo Cam SampleTests.xctest */,
+				CCF16FA924F5CF300077F966 /* Take Photo Cam SampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF16F8A24F5CF2D0077F966 /* Take Photo Cam Sample */ = {
+			isa = PBXGroup;
+			children = (
+				CCF16FBB24F5D1670077F966 /* CameraController.swift */,
+				CCF16F8B24F5CF2D0077F966 /* AppDelegate.swift */,
+				CCF16F8F24F5CF2D0077F966 /* ViewController.swift */,
+				CCF16F9424F5CF300077F966 /* Assets.xcassets */,
+				CCF16F9624F5CF300077F966 /* LaunchScreen.storyboard */,
+				CCF16F9924F5CF300077F966 /* Info.plist */,
+			);
+			path = "Take Photo Cam Sample";
+			sourceTree = "<group>";
+		};
+		CCF16FA124F5CF300077F966 /* Take Photo Cam SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF16FA224F5CF300077F966 /* Take_Photo_Cam_SampleTests.swift */,
+				CCF16FA424F5CF300077F966 /* Info.plist */,
+			);
+			path = "Take Photo Cam SampleTests";
+			sourceTree = "<group>";
+		};
+		CCF16FAC24F5CF300077F966 /* Take Photo Cam SampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF16FAD24F5CF300077F966 /* Take_Photo_Cam_SampleUITests.swift */,
+				CCF16FAF24F5CF300077F966 /* Info.plist */,
+			);
+			path = "Take Photo Cam SampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF16F8724F5CF2D0077F966 /* Take Photo Cam Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF16FB224F5CF300077F966 /* Build configuration list for PBXNativeTarget "Take Photo Cam Sample" */;
+			buildPhases = (
+				CCF16F8424F5CF2D0077F966 /* Sources */,
+				CCF16F8524F5CF2D0077F966 /* Frameworks */,
+				CCF16F8624F5CF2D0077F966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Take Photo Cam Sample";
+			productName = "Take Photo Cam Sample";
+			productReference = CCF16F8824F5CF2D0077F966 /* Take Photo Cam Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCF16F9D24F5CF300077F966 /* Take Photo Cam SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF16FB524F5CF300077F966 /* Build configuration list for PBXNativeTarget "Take Photo Cam SampleTests" */;
+			buildPhases = (
+				CCF16F9A24F5CF300077F966 /* Sources */,
+				CCF16F9B24F5CF300077F966 /* Frameworks */,
+				CCF16F9C24F5CF300077F966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF16FA024F5CF300077F966 /* PBXTargetDependency */,
+			);
+			name = "Take Photo Cam SampleTests";
+			productName = "Take Photo Cam SampleTests";
+			productReference = CCF16F9E24F5CF300077F966 /* Take Photo Cam SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCF16FA824F5CF300077F966 /* Take Photo Cam SampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF16FB824F5CF300077F966 /* Build configuration list for PBXNativeTarget "Take Photo Cam SampleUITests" */;
+			buildPhases = (
+				CCF16FA524F5CF300077F966 /* Sources */,
+				CCF16FA624F5CF300077F966 /* Frameworks */,
+				CCF16FA724F5CF300077F966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF16FAB24F5CF300077F966 /* PBXTargetDependency */,
+			);
+			name = "Take Photo Cam SampleUITests";
+			productName = "Take Photo Cam SampleUITests";
+			productReference = CCF16FA924F5CF300077F966 /* Take Photo Cam SampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF16F8024F5CF2D0077F966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "João Vitor Duarte Mariucio";
+				TargetAttributes = {
+					CCF16F8724F5CF2D0077F966 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					CCF16F9D24F5CF300077F966 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = CCF16F8724F5CF2D0077F966;
+					};
+					CCF16FA824F5CF300077F966 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = CCF16F8724F5CF2D0077F966;
+					};
+				};
+			};
+			buildConfigurationList = CCF16F8324F5CF2D0077F966 /* Build configuration list for PBXProject "Take Photo Cam Sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCF16F7F24F5CF2D0077F966;
+			productRefGroup = CCF16F8924F5CF2D0077F966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF16F8724F5CF2D0077F966 /* Take Photo Cam Sample */,
+				CCF16F9D24F5CF300077F966 /* Take Photo Cam SampleTests */,
+				CCF16FA824F5CF300077F966 /* Take Photo Cam SampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF16F8624F5CF2D0077F966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF16F9824F5CF300077F966 /* LaunchScreen.storyboard in Resources */,
+				CCF16F9524F5CF300077F966 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF16F9C24F5CF300077F966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF16FA724F5CF300077F966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF16F8424F5CF2D0077F966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF16FBC24F5D1670077F966 /* CameraController.swift in Sources */,
+				CCF16F9024F5CF2D0077F966 /* ViewController.swift in Sources */,
+				CCF16F8C24F5CF2D0077F966 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF16F9A24F5CF300077F966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF16FA324F5CF300077F966 /* Take_Photo_Cam_SampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF16FA524F5CF300077F966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF16FAE24F5CF300077F966 /* Take_Photo_Cam_SampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCF16FA024F5CF300077F966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF16F8724F5CF2D0077F966 /* Take Photo Cam Sample */;
+			targetProxy = CCF16F9F24F5CF300077F966 /* PBXContainerItemProxy */;
+		};
+		CCF16FAB24F5CF300077F966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF16F8724F5CF2D0077F966 /* Take Photo Cam Sample */;
+			targetProxy = CCF16FAA24F5CF300077F966 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCF16F9624F5CF300077F966 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF16F9724F5CF300077F966 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF16FB024F5CF300077F966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCF16FB124F5CF300077F966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF16FB324F5CF300077F966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G625UPV6D7;
+				INFOPLIST_FILE = "Take Photo Cam Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joaoduarte.Take-Photo-Cam-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCF16FB424F5CF300077F966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G625UPV6D7;
+				INFOPLIST_FILE = "Take Photo Cam Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joaoduarte.Take-Photo-Cam-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCF16FB624F5CF300077F966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Take Photo Cam SampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joaoduarte.Take-Photo-Cam-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Take Photo Cam Sample.app/Take Photo Cam Sample";
+			};
+			name = Debug;
+		};
+		CCF16FB724F5CF300077F966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Take Photo Cam SampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joaoduarte.Take-Photo-Cam-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Take Photo Cam Sample.app/Take Photo Cam Sample";
+			};
+			name = Release;
+		};
+		CCF16FB924F5CF300077F966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Take Photo Cam SampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joaoduarte.Take-Photo-Cam-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Take Photo Cam Sample";
+			};
+			name = Debug;
+		};
+		CCF16FBA24F5CF300077F966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Take Photo Cam SampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.joaoduarte.Take-Photo-Cam-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Take Photo Cam Sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF16F8324F5CF2D0077F966 /* Build configuration list for PBXProject "Take Photo Cam Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF16FB024F5CF300077F966 /* Debug */,
+				CCF16FB124F5CF300077F966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF16FB224F5CF300077F966 /* Build configuration list for PBXNativeTarget "Take Photo Cam Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF16FB324F5CF300077F966 /* Debug */,
+				CCF16FB424F5CF300077F966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF16FB524F5CF300077F966 /* Build configuration list for PBXNativeTarget "Take Photo Cam SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF16FB624F5CF300077F966 /* Debug */,
+				CCF16FB724F5CF300077F966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF16FB824F5CF300077F966 /* Build configuration list for PBXNativeTarget "Take Photo Cam SampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF16FB924F5CF300077F966 /* Debug */,
+				CCF16FBA24F5CF300077F966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCF16F8024F5CF2D0077F966 /* Project object */;
+}

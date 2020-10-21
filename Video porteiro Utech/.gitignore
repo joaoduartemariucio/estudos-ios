@@ -1,0 +1,5 @@
+Pods/
+.DS_Store*
+Podfile.lock
+Video\ porteiro\ Utech.xcworkspace/xcuserdata/
+Video porteiro Utech.xcodeproj/xcuserdata/

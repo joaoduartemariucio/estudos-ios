@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54F07C6122E150EAFEE38DFC /* Pods_Video_porteiro_UtechTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB79CB7F61AF993B25CD350 /* Pods_Video_porteiro_UtechTests.framework */; };
+		632C483D22122910A93AE241 /* Pods_Video_porteiro_Utech_Video_porteiro_UtechUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA20D3C7138891561DA42381 /* Pods_Video_porteiro_Utech_Video_porteiro_UtechUITests.framework */; };
+		A38CB565AAAD209516B4183E /* Pods_Video_porteiro_Utech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62A8E3FC0A16F222DE709CF /* Pods_Video_porteiro_Utech.framework */; };
+		CC0F8ABB24E2BC8400733BFE /* RTSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F8ABA24E2BC8400733BFE /* RTSP.swift */; };
+		CC3F5DFC248A8682001FC638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3F5DFB248A8682001FC638 /* AppDelegate.swift */; };
+		CC3F5E00248A8682001FC638 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3F5DFF248A8682001FC638 /* ViewController.swift */; };
+		CC3F5E06248A8682001FC638 /* Video_porteiro_Utech.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC3F5E04248A8682001FC638 /* Video_porteiro_Utech.xcdatamodeld */; };
+		CC3F5E08248A8687001FC638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3F5E07248A8687001FC638 /* Assets.xcassets */; };
+		CC3F5E0B248A8687001FC638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3F5E09248A8687001FC638 /* LaunchScreen.storyboard */; };
+		CC3F5E16248A8687001FC638 /* Video_porteiro_UtechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3F5E15248A8687001FC638 /* Video_porteiro_UtechTests.swift */; };
+		CC3F5E21248A8687001FC638 /* Video_porteiro_UtechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3F5E20248A8687001FC638 /* Video_porteiro_UtechUITests.swift */; };
+		CC54659824E1DA9500200759 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54659724E1DA9500200759 /* String+Extension.swift */; };
+		CC54659A24E1E98A00200759 /* CSeqRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54659924E1E98A00200759 /* CSeqRegister.swift */; };
+		CC54659E24E1EA8F00200759 /* StreamStateConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54659D24E1EA8F00200759 /* StreamStateConnection.swift */; };
+		CC5C344324915A8500B2866E /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5C344224915A8500B2866E /* SocketManager.swift */; };
+		CC5C344524915AA600B2866E /* SocketManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5C344424915AA600B2866E /* SocketManagerDelegate.swift */; };
+		CC6FA63C2497986600D68FF2 /* VideoPorteiroAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6FA63B2497986600D68FF2 /* VideoPorteiroAuth.swift */; };
+		CC6FA63F2497A8DF00D68FF2 /* NSRegularExpression+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6FA63E2497A8DF00D68FF2 /* NSRegularExpression+Extensions.swift */; };
+		CCAE602724BF397C0014F4DC /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAE602624BF397C0014F4DC /* AudioController.swift */; };
+		E8435F3A24E1977C003E1FF4 /* RtpHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8435F3924E1977C003E1FF4 /* RtpHeader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC3F5E12248A8687001FC638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3F5DF0248A8682001FC638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC3F5DF7248A8682001FC638;
+			remoteInfo = "Video porteiro Utech";
+		};
+		CC3F5E1D248A8687001FC638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3F5DF0248A8682001FC638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC3F5DF7248A8682001FC638;
+			remoteInfo = "Video porteiro Utech";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13C902C4E8CE643D9BD26EB0 /* Pods-Video porteiro Utech-Video porteiro UtechUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video porteiro Utech-Video porteiro UtechUITests.release.xcconfig"; path = "Target Support Files/Pods-Video porteiro Utech-Video porteiro UtechUITests/Pods-Video porteiro Utech-Video porteiro UtechUITests.release.xcconfig"; sourceTree = "<group>"; };
+		322EAB31BD0C86C18F671712 /* Pods-Video porteiro UtechTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video porteiro UtechTests.release.xcconfig"; path = "Target Support Files/Pods-Video porteiro UtechTests/Pods-Video porteiro UtechTests.release.xcconfig"; sourceTree = "<group>"; };
+		717BAFE9651E870B6FCC99EE /* Pods-Video porteiro Utech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video porteiro Utech.release.xcconfig"; path = "Target Support Files/Pods-Video porteiro Utech/Pods-Video porteiro Utech.release.xcconfig"; sourceTree = "<group>"; };
+		8289AB6CB93380C43DEEA2E8 /* Pods-Video porteiro Utech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video porteiro Utech.debug.xcconfig"; path = "Target Support Files/Pods-Video porteiro Utech/Pods-Video porteiro Utech.debug.xcconfig"; sourceTree = "<group>"; };
+		9CB79CB7F61AF993B25CD350 /* Pods_Video_porteiro_UtechTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Video_porteiro_UtechTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA20D3C7138891561DA42381 /* Pods_Video_porteiro_Utech_Video_porteiro_UtechUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Video_porteiro_Utech_Video_porteiro_UtechUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0F8ABA24E2BC8400733BFE /* RTSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTSP.swift; sourceTree = "<group>"; };
+		CC3F5DF8248A8682001FC638 /* Video porteiro Utech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video porteiro Utech.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3F5DFB248A8682001FC638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC3F5DFF248A8682001FC638 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC3F5E05248A8682001FC638 /* Video_porteiro_Utech.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Video_porteiro_Utech.xcdatamodel; sourceTree = "<group>"; };
+		CC3F5E07248A8687001FC638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC3F5E0A248A8687001FC638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC3F5E0C248A8687001FC638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3F5E11248A8687001FC638 /* Video porteiro UtechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Video porteiro UtechTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3F5E15248A8687001FC638 /* Video_porteiro_UtechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video_porteiro_UtechTests.swift; sourceTree = "<group>"; };
+		CC3F5E17248A8687001FC638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3F5E1C248A8687001FC638 /* Video porteiro UtechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Video porteiro UtechUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3F5E20248A8687001FC638 /* Video_porteiro_UtechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video_porteiro_UtechUITests.swift; sourceTree = "<group>"; };
+		CC3F5E22248A8687001FC638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4604022497E92000B43FDC /* Video_Porteiro_Briding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Video_Porteiro_Briding.h; sourceTree = "<group>"; };
+		CC54659724E1DA9500200759 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		CC54659924E1E98A00200759 /* CSeqRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSeqRegister.swift; sourceTree = "<group>"; };
+		CC54659D24E1EA8F00200759 /* StreamStateConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamStateConnection.swift; sourceTree = "<group>"; };
+		CC5C344224915A8500B2866E /* SocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
+		CC5C344424915AA600B2866E /* SocketManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketManagerDelegate.swift; sourceTree = "<group>"; };
+		CC6FA63B2497986600D68FF2 /* VideoPorteiroAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPorteiroAuth.swift; sourceTree = "<group>"; };
+		CC6FA63E2497A8DF00D68FF2 /* NSRegularExpression+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSRegularExpression+Extensions.swift"; sourceTree = "<group>"; };
+		CCAE602624BF397C0014F4DC /* AudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
+		D4CC355177BD25F97114700F /* Pods-Video porteiro UtechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video porteiro UtechTests.debug.xcconfig"; path = "Target Support Files/Pods-Video porteiro UtechTests/Pods-Video porteiro UtechTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D62A8E3FC0A16F222DE709CF /* Pods_Video_porteiro_Utech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Video_porteiro_Utech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8435F3924E1977C003E1FF4 /* RtpHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RtpHeader.swift; sourceTree = "<group>"; };
+		FC0D12A65503C10156E1E8FA /* Pods-Video porteiro Utech-Video porteiro UtechUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video porteiro Utech-Video porteiro UtechUITests.debug.xcconfig"; path = "Target Support Files/Pods-Video porteiro Utech-Video porteiro UtechUITests/Pods-Video porteiro Utech-Video porteiro UtechUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC3F5DF5248A8682001FC638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38CB565AAAD209516B4183E /* Pods_Video_porteiro_Utech.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3F5E0E248A8687001FC638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F07C6122E150EAFEE38DFC /* Pods_Video_porteiro_UtechTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3F5E19248A8687001FC638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632C483D22122910A93AE241 /* Pods_Video_porteiro_Utech_Video_porteiro_UtechUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01AE75C6C4456C82E8891D7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8289AB6CB93380C43DEEA2E8 /* Pods-Video porteiro Utech.debug.xcconfig */,
+				717BAFE9651E870B6FCC99EE /* Pods-Video porteiro Utech.release.xcconfig */,
+				FC0D12A65503C10156E1E8FA /* Pods-Video porteiro Utech-Video porteiro UtechUITests.debug.xcconfig */,
+				13C902C4E8CE643D9BD26EB0 /* Pods-Video porteiro Utech-Video porteiro UtechUITests.release.xcconfig */,
+				D4CC355177BD25F97114700F /* Pods-Video porteiro UtechTests.debug.xcconfig */,
+				322EAB31BD0C86C18F671712 /* Pods-Video porteiro UtechTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		29D596D3EB0DAA8647164CE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D62A8E3FC0A16F222DE709CF /* Pods_Video_porteiro_Utech.framework */,
+				AA20D3C7138891561DA42381 /* Pods_Video_porteiro_Utech_Video_porteiro_UtechUITests.framework */,
+				9CB79CB7F61AF993B25CD350 /* Pods_Video_porteiro_UtechTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC3F5DEF248A8682001FC638 = {
+			isa = PBXGroup;
+			children = (
+				CC3F5DFA248A8682001FC638 /* Video porteiro Utech */,
+				CC3F5E14248A8687001FC638 /* Video porteiro UtechTests */,
+				CC3F5E1F248A8687001FC638 /* Video porteiro UtechUITests */,
+				CC3F5DF9248A8682001FC638 /* Products */,
+				01AE75C6C4456C82E8891D7C /* Pods */,
+				29D596D3EB0DAA8647164CE6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC3F5DF9248A8682001FC638 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3F5DF8248A8682001FC638 /* Video porteiro Utech.app */,
+				CC3F5E11248A8687001FC638 /* Video porteiro UtechTests.xctest */,
+				CC3F5E1C248A8687001FC638 /* Video porteiro UtechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC3F5DFA248A8682001FC638 /* Video porteiro Utech */ = {
+			isa = PBXGroup;
+			children = (
+				CC54659B24E1EA5D00200759 /* Networking */,
+				CC8980E224A37830000FF9CC /* Audio */,
+				CC6FA63D2497A8C400D68FF2 /* Extensions */,
+				CC5C344624915AC600B2866E /* Model */,
+				CC3F5DFB248A8682001FC638 /* AppDelegate.swift */,
+				CC3F5DFF248A8682001FC638 /* ViewController.swift */,
+				CC3F5E07248A8687001FC638 /* Assets.xcassets */,
+				CC3F5E09248A8687001FC638 /* LaunchScreen.storyboard */,
+				CC3F5E0C248A8687001FC638 /* Info.plist */,
+				CC3F5E04248A8682001FC638 /* Video_porteiro_Utech.xcdatamodeld */,
+				CC4604022497E92000B43FDC /* Video_Porteiro_Briding.h */,
+			);
+			path = "Video porteiro Utech";
+			sourceTree = "<group>";
+		};
+		CC3F5E14248A8687001FC638 /* Video porteiro UtechTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC3F5E15248A8687001FC638 /* Video_porteiro_UtechTests.swift */,
+				CC3F5E17248A8687001FC638 /* Info.plist */,
+			);
+			path = "Video porteiro UtechTests";
+			sourceTree = "<group>";
+		};
+		CC3F5E1F248A8687001FC638 /* Video porteiro UtechUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC3F5E20248A8687001FC638 /* Video_porteiro_UtechUITests.swift */,
+				CC3F5E22248A8687001FC638 /* Info.plist */,
+			);
+			path = "Video porteiro UtechUITests";
+			sourceTree = "<group>";
+		};
+		CC54659B24E1EA5D00200759 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CC54659C24E1EA6600200759 /* Socket */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CC54659C24E1EA6600200759 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				CC5C344424915AA600B2866E /* SocketManagerDelegate.swift */,
+				CC54659D24E1EA8F00200759 /* StreamStateConnection.swift */,
+				CC5C344224915A8500B2866E /* SocketManager.swift */,
+				CC0F8ABA24E2BC8400733BFE /* RTSP.swift */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		CC5C344624915AC600B2866E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC6FA63B2497986600D68FF2 /* VideoPorteiroAuth.swift */,
+				CC54659924E1E98A00200759 /* CSeqRegister.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC6FA63D2497A8C400D68FF2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CC6FA63E2497A8DF00D68FF2 /* NSRegularExpression+Extensions.swift */,
+				CC54659724E1DA9500200759 /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CC8980E224A37830000FF9CC /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				CCAE602624BF397C0014F4DC /* AudioController.swift */,
+				E8435F3924E1977C003E1FF4 /* RtpHeader.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC3F5DF7248A8682001FC638 /* Video porteiro Utech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3F5E25248A8687001FC638 /* Build configuration list for PBXNativeTarget "Video porteiro Utech" */;
+			buildPhases = (
+				5C8EB5BEC12319BC82D569DB /* [CP] Check Pods Manifest.lock */,
+				CC3F5DF4248A8682001FC638 /* Sources */,
+				CC3F5DF5248A8682001FC638 /* Frameworks */,
+				CC3F5DF6248A8682001FC638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Video porteiro Utech";
+			productName = "Video porteiro Utech";
+			productReference = CC3F5DF8248A8682001FC638 /* Video porteiro Utech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC3F5E10248A8687001FC638 /* Video porteiro UtechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3F5E28248A8687001FC638 /* Build configuration list for PBXNativeTarget "Video porteiro UtechTests" */;
+			buildPhases = (
+				302B99A413FB574B5B60A26D /* [CP] Check Pods Manifest.lock */,
+				CC3F5E0D248A8687001FC638 /* Sources */,
+				CC3F5E0E248A8687001FC638 /* Frameworks */,
+				CC3F5E0F248A8687001FC638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC3F5E13248A8687001FC638 /* PBXTargetDependency */,
+			);
+			name = "Video porteiro UtechTests";
+			productName = "Video porteiro UtechTests";
+			productReference = CC3F5E11248A8687001FC638 /* Video porteiro UtechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC3F5E1B248A8687001FC638 /* Video porteiro UtechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3F5E2B248A8687001FC638 /* Build configuration list for PBXNativeTarget "Video porteiro UtechUITests" */;
+			buildPhases = (
+				7D2CF27C54298483C6E47443 /* [CP] Check Pods Manifest.lock */,
+				CC3F5E18248A8687001FC638 /* Sources */,
+				CC3F5E19248A8687001FC638 /* Frameworks */,
+				CC3F5E1A248A8687001FC638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC3F5E1E248A8687001FC638 /* PBXTargetDependency */,
+			);
+			name = "Video porteiro UtechUITests";
+			productName = "Video porteiro UtechUITests";
+			productReference = CC3F5E1C248A8687001FC638 /* Video porteiro UtechUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC3F5DF0248A8682001FC638 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Fulltime Gestora de Dados Ltda.";
+				TargetAttributes = {
+					CC3F5DF7248A8682001FC638 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CC3F5E10248A8687001FC638 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CC3F5DF7248A8682001FC638;
+					};
+					CC3F5E1B248A8687001FC638 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CC3F5DF7248A8682001FC638;
+					};
+				};
+			};
+			buildConfigurationList = CC3F5DF3248A8682001FC638 /* Build configuration list for PBXProject "Video porteiro Utech" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC3F5DEF248A8682001FC638;
+			productRefGroup = CC3F5DF9248A8682001FC638 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC3F5DF7248A8682001FC638 /* Video porteiro Utech */,
+				CC3F5E10248A8687001FC638 /* Video porteiro UtechTests */,
+				CC3F5E1B248A8687001FC638 /* Video porteiro UtechUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC3F5DF6248A8682001FC638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3F5E0B248A8687001FC638 /* LaunchScreen.storyboard in Resources */,
+				CC3F5E08248A8687001FC638 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3F5E0F248A8687001FC638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3F5E1A248A8687001FC638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		302B99A413FB574B5B60A26D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Video porteiro UtechTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C8EB5BEC12319BC82D569DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Video porteiro Utech-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D2CF27C54298483C6E47443 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Video porteiro Utech-Video porteiro UtechUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3F5DF4248A8682001FC638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5C344324915A8500B2866E /* SocketManager.swift in Sources */,
+				CC54659824E1DA9500200759 /* String+Extension.swift in Sources */,
+				CC0F8ABB24E2BC8400733BFE /* RTSP.swift in Sources */,
+				CC3F5E00248A8682001FC638 /* ViewController.swift in Sources */,
+				CC3F5E06248A8682001FC638 /* Video_porteiro_Utech.xcdatamodeld in Sources */,
+				E8435F3A24E1977C003E1FF4 /* RtpHeader.swift in Sources */,
+				CC54659A24E1E98A00200759 /* CSeqRegister.swift in Sources */,
+				CC3F5DFC248A8682001FC638 /* AppDelegate.swift in Sources */,
+				CC54659E24E1EA8F00200759 /* StreamStateConnection.swift in Sources */,
+				CCAE602724BF397C0014F4DC /* AudioController.swift in Sources */,
+				CC6FA63C2497986600D68FF2 /* VideoPorteiroAuth.swift in Sources */,
+				CC6FA63F2497A8DF00D68FF2 /* NSRegularExpression+Extensions.swift in Sources */,
+				CC5C344524915AA600B2866E /* SocketManagerDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3F5E0D248A8687001FC638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3F5E16248A8687001FC638 /* Video_porteiro_UtechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3F5E18248A8687001FC638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3F5E21248A8687001FC638 /* Video_porteiro_UtechUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC3F5E13248A8687001FC638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC3F5DF7248A8682001FC638 /* Video porteiro Utech */;
+			targetProxy = CC3F5E12248A8687001FC638 /* PBXContainerItemProxy */;
+		};
+		CC3F5E1E248A8687001FC638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC3F5DF7248A8682001FC638 /* Video porteiro Utech */;
+			targetProxy = CC3F5E1D248A8687001FC638 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC3F5E09248A8687001FC638 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3F5E0A248A8687001FC638 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC3F5E23248A8687001FC638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC3F5E24248A8687001FC638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC3F5E26248A8687001FC638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8289AB6CB93380C43DEEA2E8 /* Pods-Video porteiro Utech.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G625UPV6D7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Video porteiro Utech/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fulltime.fullarm.mobile.Video-porteiro-Utech";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PRODUCT_NAME)/Video_Porteiro_Briding.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC3F5E27248A8687001FC638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 717BAFE9651E870B6FCC99EE /* Pods-Video porteiro Utech.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G625UPV6D7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Video porteiro Utech/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fulltime.fullarm.mobile.Video-porteiro-Utech";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PRODUCT_NAME)/Video_Porteiro_Briding.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC3F5E29248A8687001FC638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4CC355177BD25F97114700F /* Pods-Video porteiro UtechTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G625UPV6D7;
+				INFOPLIST_FILE = "Video porteiro UtechTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fulltime.fullarm.mobile.Video-porteiro-UtechTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Video porteiro Utech.app/Video porteiro Utech";
+			};
+			name = Debug;
+		};
+		CC3F5E2A248A8687001FC638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 322EAB31BD0C86C18F671712 /* Pods-Video porteiro UtechTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G625UPV6D7;
+				INFOPLIST_FILE = "Video porteiro UtechTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fulltime.fullarm.mobile.Video-porteiro-UtechTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Video porteiro Utech.app/Video porteiro Utech";
+			};
+			name = Release;
+		};
+		CC3F5E2C248A8687001FC638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0D12A65503C10156E1E8FA /* Pods-Video porteiro Utech-Video porteiro UtechUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G625UPV6D7;
+				INFOPLIST_FILE = "Video porteiro UtechUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fulltime.fullarm.mobile.Video-porteiro-UtechUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Video porteiro Utech";
+			};
+			name = Debug;
+		};
+		CC3F5E2D248A8687001FC638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13C902C4E8CE643D9BD26EB0 /* Pods-Video porteiro Utech-Video porteiro UtechUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G625UPV6D7;
+				INFOPLIST_FILE = "Video porteiro UtechUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fulltime.fullarm.mobile.Video-porteiro-UtechUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Video porteiro Utech";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC3F5DF3248A8682001FC638 /* Build configuration list for PBXProject "Video porteiro Utech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3F5E23248A8687001FC638 /* Debug */,
+				CC3F5E24248A8687001FC638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3F5E25248A8687001FC638 /* Build configuration list for PBXNativeTarget "Video porteiro Utech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3F5E26248A8687001FC638 /* Debug */,
+				CC3F5E27248A8687001FC638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3F5E28248A8687001FC638 /* Build configuration list for PBXNativeTarget "Video porteiro UtechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3F5E29248A8687001FC638 /* Debug */,
+				CC3F5E2A248A8687001FC638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3F5E2B248A8687001FC638 /* Build configuration list for PBXNativeTarget "Video porteiro UtechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3F5E2C248A8687001FC638 /* Debug */,
+				CC3F5E2D248A8687001FC638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC3F5E04248A8682001FC638 /* Video_porteiro_Utech.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC3F5E05248A8682001FC638 /* Video_porteiro_Utech.xcdatamodel */,
+			);
+			currentVersion = CC3F5E05248A8682001FC638 /* Video_porteiro_Utech.xcdatamodel */;
+			path = Video_porteiro_Utech.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC3F5DF0248A8682001FC638 /* Project object */;
+}

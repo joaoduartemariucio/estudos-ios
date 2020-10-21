@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>857835067726-bdgatsph22dgn77klkdtekgj2rov1bpq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.857835067726-bdgatsph22dgn77klkdtekgj2rov1bpq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCXGz2iR1DOcX_HV1DrSPwJtpXz0_4Sk_E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>857835067726</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.com.joaoduarte.estudo.CallKit-Samples</string>
+	<key>PROJECT_ID</key>
+	<string>callkit-samples</string>
+	<key>STORAGE_BUCKET</key>
+	<string>callkit-samples.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:857835067726:ios:d0588e20b6262a5f32a61f</string>
+	<key>DATABASE_URL</key>
+	<string>https://callkit-samples.firebaseio.com</string>
+</dict>
+</plist>

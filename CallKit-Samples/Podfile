@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'CallKit-Samples' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CallKit-Samples
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Messaging'
+
+  target 'CallKit-SamplesTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CallKit-SamplesUITests' do
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'ZXing Samples' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ZXing Samples
+  pod 'ZXingObjC', '~> 3.6.4'
+
+  target 'ZXing SamplesTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ZXing SamplesUITests' do
+    # Pods for testing
+  end
+
+end
